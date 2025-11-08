@@ -1,4 +1,4 @@
-{
+{ "homepage": "https://THIRISHA949.github.io/Book-Tracker"
   "name": "book-tracker",
   "private": true,
   "version": "0.0.0",
@@ -8,6 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"  
   },
   "dependencies": {
     "gh-pages": "^6.3.0",
